@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doraemon Team</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+        }
+
+        /* Flexbox */
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        /* Profile Card */
+        .card {
+            width: 280px;
+            background-color: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px gray;
+        }
+
+        .card img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* ID selector */
+        #doraemon {
+            color: black;
+        }
+
+        #nobita {
+            color: black;
+        }
+
+        #shizuka {
+            color: black;
+        }
+
+        /* Class selector */
+        .role {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .bio {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Doraemon Team</h1>
+
+    <div class="container">
+
+        <!-- Doraemon -->
+        <div class="card">
+            <img src="images.png"
+                 alt="Doraemon">
+
+            <h2 id="doraemon">Doraemon</h2>
+
+            <p class="role">Gadget Expert</p>
+
+            <p class="bio">
+                Loves helping friends with amazing futuristic gadgets.
+            </p>
+        </div>
+
+
+        <!-- Nobita -->
+        <div class="card">
+            <img src="images.jpg"
+                 alt="Nobita">
+
+            <h2 id="nobita">Nobita</h2>
+
+            <p class="role">Creative Dreamer</p>
+
+            <p class="bio">
+                A kind-hearted dreamer who always finds a way forward.
+            </p>
+        </div>
+
+
+        <!-- Shizuka -->
+        <div class="card">
+            <img src="images (1).jpg"
+                 alt="Shizuka">
+
+            <h2 id="shizuka">Shizuka</h2>
+
+            <p class="role">Smart & Kind Student</p>
+
+            <p class="bio">
+                Intelligent, caring, and always ready to help others.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
